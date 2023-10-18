@@ -2,3 +2,4 @@ node_modules
 .env
 routes.http
 example.mp3
+prisma
