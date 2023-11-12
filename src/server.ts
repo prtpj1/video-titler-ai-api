@@ -18,12 +18,12 @@ app.register(createTranscriptionRoute)
 app.register(generateAICompletionRoute)
 
 app.get('/', () => {
-    return 'Hello World!'
+    return 'Video Titler API Server'
 })
 
 app.listen({
     port: port,
 }).then(() => {
-    console.log('🌎 HTTP Server is running!');
+    console.log(`🌎 HTTP Server is running on port: ${port}`);
 
 })
